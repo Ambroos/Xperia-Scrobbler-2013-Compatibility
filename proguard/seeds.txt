@@ -1,0 +1,15 @@
+be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity
+be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity: MainActivity()
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$dimen: int activity_horizontal_margin
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$dimen: int activity_vertical_margin
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$drawable: int ic_launcher
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$id: int action_settings
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$layout: int activity_main
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$menu: int main
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$string: int action_settings
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$string: int app_name
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$string: int hello_world
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$style: int AppBaseTheme
+be.ambroosvaes.xperiascrobbler.Z1Compat.R$style: int AppTheme
+be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver
+be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver: ScrobblerReceiver()

@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:25
+-keep class be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver { <init>(...); }
+

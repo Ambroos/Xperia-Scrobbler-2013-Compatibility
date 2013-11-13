@@ -1,0 +1,403 @@
+_____________________________________________________________________
++ Program class: be/ambroosvaes/xperiascrobbler/Z1Compat/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + Integer [2130903040]
+  + Class [android/app/Activity]
+  + Class [be/ambroosvaes/xperiascrobbler/Z1Compat/MainActivity]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [be/ambroosvaes/xperiascrobbler/Z1Compat/MainActivity.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [be/ambroosvaes/xperiascrobbler/Z1Compat/MainActivity]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #6
+        + Methodref [be/ambroosvaes/xperiascrobbler/Z1Compat/MainActivity.setContentView (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: be/ambroosvaes/xperiascrobbler/Z1Compat/ScrobblerReceiver
+  Superclass:    android/content/BroadcastReceiver
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver extends android.content.BroadcastReceiver
+
+Interfaces (count = 0):
+
+Constant Pool (count = 120):
+  + String [ALBUM_NAME]
+  + String [ARTIST_NAME]
+  + String [Ambroos]
+  + String [Received action: ]
+  + String [TRACK_DURATION]
+  + String [TRACK_NAME]
+  + String [TRACK_POSITION]
+  + String [album]
+  + String [artist]
+  + String [com.sonyericsson.music.TRACK_COMPLETED]
+  + String [com.sonyericsson.music.playbackcontrol.ACTION_PAUSED]
+  + String [com.sonyericsson.music.playbackcontrol.ACTION_TRACK_STARTED]
+  + String [duration]
+  + String [fm.last.android.metachanged]
+  + String [fm.last.android.playbackcomplete]
+  + String [fm.last.android.playbackpaused]
+  + String [fm.last.android.unknown]
+  + String [position]
+  + String [semc]
+  + String [source]
+  + String [track]
+  + Class [android/content/BroadcastReceiver]
+  + Class [android/content/Context]
+  + Class [android/content/Intent]
+  + Class [android/os/Bundle]
+  + Class [android/util/Log]
+  + Class [be/ambroosvaes/xperiascrobbler/Z1Compat/ScrobblerReceiver]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Methodref [android/content/BroadcastReceiver.<init> ()V]
+  + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+  + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+  + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/os/Bundle.getInt (Ljava/lang/String;)I]
+  + Methodref [android/os/Bundle.getInt (Ljava/lang/String;I)I]
+  + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [be/ambroosvaes/xperiascrobbler/Z1Compat/ScrobblerReceiver.a (Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;)V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;)V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [getAction ()Ljava/lang/String;]
+  + NameAndType [getExtras ()Landroid/os/Bundle;]
+  + NameAndType [getInt (Ljava/lang/String;)I]
+  + NameAndType [getInt (Ljava/lang/String;I)I]
+  + NameAndType [getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [sendBroadcast (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Landroid/os/Bundle;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;I)I]
+  + Utf8 [(Ljava/lang/String;I)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [<init>]
+  + Utf8 [ALBUM_NAME]
+  + Utf8 [ARTIST_NAME]
+  + Utf8 [Ambroos]
+  + Utf8 [Code]
+  + Utf8 [Received action: ]
+  + Utf8 [StackMapTable]
+  + Utf8 [TRACK_DURATION]
+  + Utf8 [TRACK_NAME]
+  + Utf8 [TRACK_POSITION]
+  + Utf8 [a]
+  + Utf8 [album]
+  + Utf8 [android/content/BroadcastReceiver]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [artist]
+  + Utf8 [be/ambroosvaes/xperiascrobbler/Z1Compat/ScrobblerReceiver]
+  + Utf8 [com.sonyericsson.music.TRACK_COMPLETED]
+  + Utf8 [com.sonyericsson.music.playbackcontrol.ACTION_PAUSED]
+  + Utf8 [com.sonyericsson.music.playbackcontrol.ACTION_TRACK_STARTED]
+  + Utf8 [d]
+  + Utf8 [duration]
+  + Utf8 [equals]
+  + Utf8 [fm.last.android.metachanged]
+  + Utf8 [fm.last.android.playbackcomplete]
+  + Utf8 [fm.last.android.playbackpaused]
+  + Utf8 [fm.last.android.unknown]
+  + Utf8 [getAction]
+  + Utf8 [getExtras]
+  + Utf8 [getInt]
+  + Utf8 [getString]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onReceive]
+  + Utf8 [position]
+  + Utf8 [putExtra]
+  + Utf8 [semc]
+  + Utf8 [sendBroadcast]
+  + Utf8 [source]
+  + Utf8 [toString]
+  + Utf8 [track]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ScrobblerReceiver()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [android/content/BroadcastReceiver.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;)V
+    Access flags: 0x9
+      = public static void a(android.content.Context,android.os.Bundle,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 139, locals = 5, stack = 4):
+      [0] aload_1 v1
+      [1] ifnull +137 (target=138)
+      [4] aload_2 v2
+      [5] ldc #16
+        + String [fm.last.android.playbackpaused]
+      [7] invokevirtual #42
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [10] ifeq +21 (target=31)
+      [13] new #24
+        + Class [android/content/Intent]
+      [16] dup
+      [17] ldc #16
+        + String [fm.last.android.playbackpaused]
+      [19] invokespecial #32
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [22] astore_3 v3
+      [23] aload_0 v0
+      [24] aload_3 v3
+      [25] invokevirtual #31
+        + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+      [28] goto +110 (target=138)
+      [31] new #24
+        + Class [android/content/Intent]
+      [34] dup
+      [35] aload_2 v2
+      [36] invokespecial #32
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
+      [39] astore_3 v3
+      [40] aload_3 v3
+      [41] ldc #9
+        + String [artist]
+      [43] aload_1 v1
+      [44] ldc #2
+        + String [ARTIST_NAME]
+      [46] invokevirtual #39
+        + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [49] invokevirtual #36
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [52] pop
+      [53] aload_3 v3
+      [54] ldc #8
+        + String [album]
+      [56] aload_1 v1
+      [57] ldc #1
+        + String [ALBUM_NAME]
+      [59] invokevirtual #39
+        + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [62] invokevirtual #36
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [65] pop
+      [66] aload_3 v3
+      [67] ldc #21
+        + String [track]
+      [69] aload_1 v1
+      [70] ldc #6
+        + String [TRACK_NAME]
+      [72] invokevirtual #39
+        + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [75] invokevirtual #36
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [78] pop
+      [79] aload_3 v3
+      [80] ldc #13
+        + String [duration]
+      [82] aload_1 v1
+      [83] ldc #5
+        + String [TRACK_DURATION]
+      [85] invokevirtual #37
+        + Methodref [android/os/Bundle.getInt (Ljava/lang/String;)I]
+      [88] sipush 1000
+      [91] idiv
+      [92] invokevirtual #35
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+      [95] pop
+      [96] aload_3 v3
+      [97] ldc #20
+        + String [source]
+      [99] ldc #19
+        + String [semc]
+      [101] invokevirtual #36
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [104] pop
+      [105] aload_1 v1
+      [106] ldc #7
+        + String [TRACK_POSITION]
+      [108] iconst_m1
+      [109] invokevirtual #38
+        + Methodref [android/os/Bundle.getInt (Ljava/lang/String;I)I]
+      [112] istore v4
+      [114] iload v4
+      [116] iconst_m1
+      [117] ificmpeq +16 (target=133)
+      [120] aload_3 v3
+      [121] ldc #18
+        + String [position]
+      [123] iload v4
+      [125] sipush 1000
+      [128] idiv
+      [129] invokevirtual #35
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;I)Landroid/content/Intent;]
+      [132] pop
+      [133] aload_0 v0
+      [134] aload_3 v3
+      [135] invokevirtual #31
+        + Methodref [android/content/Context.sendBroadcast (Landroid/content/Intent;)V]
+      [138] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [31] Var: ..., Stack: (empty)
+        - [133] Var: ...[a:android/content/Intent][i], Stack: (empty)
+        - [138] Var: -2, Stack: (empty)
+  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x1
+      = public void onReceive(android.content.Context,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 91, locals = 6, stack = 4):
+      [0] ldc #17
+        + String [fm.last.android.unknown]
+      [2] astore_3 v3
+      [3] aload_2 v2
+      [4] invokevirtual #33
+        + Methodref [android/content/Intent.getAction ()Ljava/lang/String;]
+      [7] astore v4
+      [9] ldc #3
+        + String [Ambroos]
+      [11] new #29
+        + Class [java/lang/StringBuilder]
+      [14] dup
+      [15] ldc #4
+        + String [Received action: ]
+      [17] invokespecial #43
+        + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [20] aload v4
+      [22] invokevirtual #44
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [25] invokevirtual #45
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [28] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [31] pop
+      [32] aload v4
+      [34] ldc #12
+        + String [com.sonyericsson.music.playbackcontrol.ACTION_TRACK_STARTED]
+      [36] invokevirtual #42
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [39] ifeq +9 (target=48)
+      [42] ldc #14
+        + String [fm.last.android.metachanged]
+      [44] astore_3 v3
+      [45] goto +32 (target=77)
+      [48] aload v4
+      [50] ldc #11
+        + String [com.sonyericsson.music.playbackcontrol.ACTION_PAUSED]
+      [52] invokevirtual #42
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [55] ifeq +9 (target=64)
+      [58] ldc #16
+        + String [fm.last.android.playbackpaused]
+      [60] astore_3 v3
+      [61] goto +16 (target=77)
+      [64] aload v4
+      [66] ldc #10
+        + String [com.sonyericsson.music.TRACK_COMPLETED]
+      [68] invokevirtual #42
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [71] ifeq +6 (target=77)
+      [74] ldc #15
+        + String [fm.last.android.playbackcomplete]
+      [76] astore_3 v3
+      [77] aload_2 v2
+      [78] invokevirtual #34
+        + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+      [81] astore v5
+      [83] aload_1 v1
+      [84] aload v5
+      [86] aload_3 v3
+      [87] invokestatic #41
+        + Methodref [be/ambroosvaes/xperiascrobbler/Z1Compat/ScrobblerReceiver.a (Landroid/content/Context;Landroid/os/Bundle;Ljava/lang/String;)V]
+      [90] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [48] Var: ...[a:java/lang/String][a:java/lang/String], Stack: (empty)
+        - [64] Var: ..., Stack: (empty)
+        - [77] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
