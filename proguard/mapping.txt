@@ -1,5 +1,0 @@
-be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity -> be.ambroosvaes.xperiascrobbler.Z1Compat.MainActivity:
-    void onCreate(android.os.Bundle) -> onCreate
-be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver -> be.ambroosvaes.xperiascrobbler.Z1Compat.ScrobblerReceiver:
-    void scrobbleToLastFM(android.content.Context,android.os.Bundle,java.lang.String) -> a
-    void onReceive(android.content.Context,android.content.Intent) -> onReceive
