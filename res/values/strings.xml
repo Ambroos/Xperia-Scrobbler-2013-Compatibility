@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Xperia Scrobbler</string>
-    <string name="action_settings">Settings</string>
     <string name="hello_world">Scrobbling is now enabled!</string>
+    <string name="install_last_fm_toast">Please install the Last.fm app, configure it and return to Xperia Scrobbler.</string>
 
 </resources>
