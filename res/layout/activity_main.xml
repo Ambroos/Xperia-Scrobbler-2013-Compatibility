@@ -13,6 +13,17 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        style="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/hidebutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hide_app"
+        android:onClick="hideApp" />
 
 </RelativeLayout>

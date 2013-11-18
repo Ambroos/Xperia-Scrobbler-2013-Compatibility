@@ -3,6 +3,11 @@
 
     <string name="app_name">Xperia Scrobbler</string>
     <string name="hello_world">Scrobbling is now enabled!</string>
-    <string name="install_last_fm_toast">Please install the Last.fm app, configure it and return to Xperia Scrobbler.</string>
+    <string name="hide_app">Hide app from App Drawer</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_hide_title">Hide app?</string>
+    <string name="confirm_hide">Uninstall and reinstall to make visible again.\n\nScrobbling will keep working.</string>
+    <string name="install_last_fm_toast">Install the Last.fm app first to start scrobbling.</string>
 
 </resources>

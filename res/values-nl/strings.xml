@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xperia Scrobbler</string>
+    <string name="hello_world">Scrobblen is nu ingeschakeld!</string>
+    <string name="hide_app">App verbergen</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="confirm_hide_title">App verbergen?</string>
+    <string name="confirm_hide">Verwijder en installeer de app opnieuw om \'m terug zichtbaar te maken.\n\nScrobblen blijft werken.</string>
+    <string name="install_last_fm_toast">Installeer eerst de Last.fm-app om te kunnen scrobblen.</string>
+
+</resources>
